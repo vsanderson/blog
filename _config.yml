@@ -1,0 +1,14 @@
+# Site settings
+title: A blog by Valerian Anderson
+email: valerian.anderson@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Valerian Anderson's blog.
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://valeriananderson.com" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  vsanderson
+permalink: "/:title"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge

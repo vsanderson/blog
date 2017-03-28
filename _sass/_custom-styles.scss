@@ -1,0 +1,105 @@
+.mouse-type {
+  font-size: 12px;
+  color: lighten($grey-color, 35%);
+}
+
+h1.post-title {
+  text-align: center;
+  line-height: 60px;
+}
+
+/* For youtube embeds on mobile */
+iframe {
+  max-width:100%;
+}
+
+.site-title {
+    font-size: 18px;
+    line-height: 56px;
+    margin-bottom: 0;
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+    color: #333;
+
+    &:visited {
+        color: #333;
+    }
+}
+
+.about-link {
+  color: #333;
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
+
+  &:visited {
+      color: #333;
+  }
+}
+
+html { font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  line-height: 1.50;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.post-link {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.drip {
+  font-size: 16px;
+  margin-bottom: 30px;
+
+  input {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 40%;
+  }
+
+  input[type='submit'] {
+    background-color: lighten(#477DCA, 10%);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    line-height: 1;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-right: 1em;
+    padding-left: 1em;
+    cursor: pointer;
+    width: 43%;
+  }
+}
